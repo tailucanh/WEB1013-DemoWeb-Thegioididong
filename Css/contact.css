@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto.ttf");
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Roboto;
+}
+    
+.box-contact{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.box-contact  .contact-title{
+    height: 45px;
+    width: 1250px;
+    margin: 25px 0 0 25px;
+    border-left: 8px solid #FFC90B;
+    border-bottom: 2px solid #FFC90B;
+    background-color: #fef7dd;
+}
+ .box-contact .contact-title h1{
+    padding: 7px 0 0 25px;
+    color: #000000;
+    font-size: 27px;
+}
+.box-contact .contact-address{
+    margin: 20px 0 10px 60px;
+    width: 900px;
+    color: #121212;
+}
+ .box-contact .contact-address p{
+    font-size: 0;
+    font-size: 17px;
+}
+ .box-contact .contact-map{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+ .box-contact .contact-map iframe{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+}
+
+ .box-contact .contact-form{
+    margin: 0 auto;
+    width: 1160px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+    background-color: white;
+}
+ .box-contact .contact-form .form1{
+    float: left;
+    width: 580px;
+    height: 110px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+ .box-contact .contact-form .form1 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+ .box-contact .contact-form .form1 input{
+    width: 510px;
+    height: 40px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+ .box-contact .contact-form .form1 input:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+ .box-contact .contact-form .form2{
+    clear: both;
+    width: 1160px;
+    height: 110px;
+}
+ .box-contact .contact-form .form2 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+ .box-contact .contact-form .form2 input{
+    width: 1090px;
+    height: 40px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+ .box-contact .contact-form .form2 input:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+ .box-contact .contact-form .form3{
+    margin-top: 5px;
+    width: 1160px;
+    height: 245px;
+}
+ .box-contact .contact-form .form3 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+ .box-contact .contact-form .form3 textarea{
+    width: 1090px;
+    height: 200px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+ .box-contact .contact-form .form3 textarea:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+ .box-contact .contact-form .form4{
+    width: 300px;
+    height: 50px;
+}
+ .box-contact .contact-form .form4 label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ .box-contact .contact-form .form4 input{
+    margin-left: 25px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+ .box-contact .contact-form > button{
+    border: none;
+    width: 90px;
+    height: 30px;
+    box-shadow: 0 0 3px gray;
+    border-radius: 3px;
+    outline: none;
+    margin: 0 0 40px 30px;
+}
+ .box-contact .contact-form > button:hover{
+    box-shadow: 0 0 3px orangered;  
+}
+

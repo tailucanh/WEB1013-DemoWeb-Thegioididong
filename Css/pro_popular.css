@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto.ttf");
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Roboto;
+}
+
+.nav-product{
+    width: 310px;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+.nav-product img{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    object-fit: cover;
+    
+}
+.nav-product p{
+    color: rgb(42, 88, 255);
+}
+.box-function-popular{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px 0 10px 30px;
+}
+.title-fun{
+    font-size: 19px;
+    margin-right: 40px;
+}
+
+.funci-copy{
+    background-color: #E1F2E8;
+    border-radius: 10px;
+    padding: 3px;
+
+    
+}
+.funci-copy .text-fun{
+    font-family: Roboto;
+    color: green;
+}
+
+.funci{
+    width: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 35px;
+   
+}
+.funci p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    margin-bottom: 5px;
+}
+
+.funci input{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.box-container-popular{
+
+    margin: 40px 20px 140px 20px;
+}
+.container-popular{
+    display: flex;
+    justify-content: center;
+}
+
+.child-popular{
+    display: flex;
+    width: calc(100%/5);    
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 5px 30px 10px;
+    border: 1px solid rgb(171, 170, 170);
+}
+.border-top-left-child{
+    border-top-left-radius: 10px;
+}
+.border-top-right-child{
+    border-top-right-radius: 10px;
+}
+
+.border-bottom-left-child{
+    border-bottom-left-radius: 10px;
+}
+.border-bottom-right-child{
+    border-bottom-right-radius: 10px;
+}
+
+
+.text-installment{
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    padding-left: 5px;
+    margin: 10px 0 10px 10px ;
+}
+.name-phone{
+    font-size: 17px;
+    color: blue;
+}
+
+.box-screen{
+    display: flex;
+    justify-content: start;
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+.box-screen p{
+    background-color: #F1F1F1;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+}
+
+.gb-prameters{
+    display: flex;
+    justify-content: flex-start;
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+
+.gb-prameters p{
+    background-color: #ffffff;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 4px;
+}
+.gb-prameters p:first-child{
+    border: 2px solid rgb(0, 106, 255);
+}
+
+.box-old-price{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.box-old-price p:nth-child(1){
+    color: gray;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+.box-old-price p:nth-child(2){
+    color: gray;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.price-new{
+    color: red;
+    font-size: 22px;
+}
+.text-compare{
+    color: blue;
+    text-decoration: underline;
+}
+.child-popular img{
+    display: block;
+    margin:  0 auto;
+    width: 150px;
+    object-fit: contain;
+}

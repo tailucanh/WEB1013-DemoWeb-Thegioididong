@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto.ttf");
+  }
+  * {
+    
+      box-sizing: border-box;
+      font-family: Roboto;
+}
+.box-contact-permanent{
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+    border-radius: 15px;
+}
+
+ 
+
+.box-contact-permanent .permanent-img{
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    width: 70px;
+}
+
+  .box-contact-permanent .permanent-title{
+    position: relative;
+    width: 360px;
+    height: 60px;
+    background-color: #FFC900;
+    border-radius: 10px 10px 0 0 ;
+    display: none;
+}
+
+  .box-contact-permanent .permanent-title .icon{
+    width: 40px;
+    height: 37px;
+    margin: 10px 25px 0 10px;
+}
+  .box-contact-permanent .permanent-title .box-title {
+   display: flex;
+}
+  .box-contact-permanent .permanent-title .noidung h4{
+    margin-top: 20px;
+    margin-right: 0px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    line-height: 0;
+}
+  .box-contact-permanent .permanent-title .noidung p{
+    color: #000000;
+    width: 300px;
+    margin-top: 20px;
+    line-height: 0;
+}   
+
+
+  .box-contact-permanent:hover .permanent-title{
+    display: block;
+}
+
+  .box-contact-permanent .permanent-nd{
+    overflow-y: scroll;
+    height: 285px;
+    width: 360px;
+    border-bottom: 1px solid rgb(208, 201, 201);
+    background-color: #f9f7f7;
+    display: none;
+}
+  .box-contact-permanent:hover .permanent-nd{
+    display: block;
+}
+  .box-contact-permanent .permanent-nd  .box-nd{
+    width: 300px;
+    height: 650px;
+    border: none;
+    box-shadow: 0 0 4px gray;
+    border-radius: 3px;
+    outline: none;
+    margin: 20px;
+}
+  .box-contact-permanent .permanent-nd  .box-nd p{
+    font-size: 19px;
+    padding: 0 5px 0 10px;
+    font-weight: 600;
+}
+  .box-contact-permanent .permanent-nd  .box-nd label{
+    font-size: 18px;
+    font-weight: inherit;
+    margin: 10px 0 10px 10px;
+}
+  .box-contact-permanent .permanent-nd  .box-nd input{
+    border: none; 
+    height: 30px;
+    width: 260px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+  .box-contact-permanent .permanent-nd  .box-nd input::placeholder{
+    text-align: right;
+    display: block;
+}
+  .box-contact-permanent .permanent-nd  .box-nd .country::placeholder{
+    text-align: left;
+    
+}
+  .box-contact-permanent .permanent-nd  .box-nd select{
+    border: none; 
+    height: 35px;
+    width: 270px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+  .box-contact-permanent .permanent-nd  .box-nd textarea{
+    border: none; 
+    height: 80px;
+    width: 260px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+
+  .box-contact-permanent .permanent-button{
+    background-color: #ffe37f;
+    height: 60px;
+    width: 360px;
+    border-radius: 0 0 10px 10px ;
+    text-align: center;
+    border: none;
+    display: none;
+}
+  .box-contact-permanent:hover .permanent-button{
+    display: block;
+}
+
+  .box-contact-permanent .permanent-button button{
+    width: 150px;
+    height: 35px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFC900;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 10px;
+}
+  .box-contact-permanent .permanent-button button:hover{
+    background-color: #888888;
+}
